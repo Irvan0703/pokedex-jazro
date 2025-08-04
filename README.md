@@ -1,35 +1,41 @@
-# pokedex-app
+# Pokédex App – JAZRO Frontend Coding Challenge
 
-This template should help get you started developing with Vue 3 in Vite.
+A simple Pokédex web application built with Vue 3, Pinia, Bootstrap 5.3, and Vite.  
+This app was created as part of the JAZRO Robotic Academy frontend coding challenge.
 
-## Recommended IDE Setup
+## 🔗 Live Demo
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+👉 [https://grand-croquembouche-2dfcae.netlify.app](https://grand-croquembouche-2dfcae.netlify.app)
 
-## Customize configuration
+## 🛠️ Tech Stack
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- [Vue 3](https://vuejs.org/)
+- [Pinia](https://pinia.vuejs.org/)
+- [Bootstrap 5.3](https://getbootstrap.com/)
+- [Vite](https://vitejs.dev/)
+- [PokéAPI](https://pokeapi.co/)
 
-## Project Setup
+## 📦 Features
 
-```sh
+- Fetch first 100 Pokémon from PokéAPI
+- Display as responsive grid cards
+- Search Pokémon by name (real-time filter)
+- View Pokémon details on separate page
+- Edit Pokémon info (stored in Pinia state)
+- Loading spinner during API fetch
+- Fully responsive design (mobile-first)
+
+## 🚀 Project Setup
+
+```bash
+# Install dependencies
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+# Start local dev server
 npm run dev
-```
 
-### Compile and Minify for Production
-
-```sh
+# Build for production
 npm run build
-```
 
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
+# Lint the code
 npm run lint
-```
