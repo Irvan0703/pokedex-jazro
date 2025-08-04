@@ -27,6 +27,12 @@ This app was created as part of the JAZRO Robotic Academy frontend coding challe
 
 ## 🚀 Project Setup
 
+
+```bash
+### Clone the repository
+git clone https://github.com/Irvan0703/pokedex-jazro.git
+cd pokedex-jazro
+
 ```bash
 # Install dependencies
 npm install
