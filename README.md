@@ -33,7 +33,6 @@ This app was created as part of the JAZRO Robotic Academy frontend coding challe
 git clone https://github.com/Irvan0703/pokedex-jazro.git
 cd pokedex-jazro
 
-```bash
 # Install dependencies
 npm install
 
